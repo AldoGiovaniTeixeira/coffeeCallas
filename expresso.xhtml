@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modelo_template.xhtml">
+    <ui:define name="menu">
+        <ui:include src="/includes/menu_principal.xhtml"/>
+    </ui:define>
+    <ui:define name="Expresso">
+        <h:form>
+            <h:inputText>
+                Para o café ser considerado um espresso ele deve ter 35 ml do mais puro café e mais nada. Se forma chamado de café expresso, a grafia é com x. Entretanto, sozinho, por se tratar de um nome próprio, o espresso é escrito com s.
+            </h:inputText>
+        </h:form>
+    </ui:define>
+</ui:composition>
