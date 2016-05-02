@@ -10,11 +10,12 @@
     <ui:define name="menu">
         <ui:include src="/includes/menu_principal.xhtml"/>
     </ui:define>
-    <ui:define name="Expresso">
+    <ui:define name="conteudo">
         <h:form>
-            <h:inputText>
-                Para o café ser considerado um espresso ele deve ter 35 ml do mais puro café e mais nada. Se forma chamado de café expresso, a grafia é com x. Entretanto, sozinho, por se tratar de um nome próprio, o espresso é escrito com s.
-            </h:inputText>
+            <h:outputLabel>
+                <h2>Para o café ser considerado um espresso ele deve ter 35 ml do mais puro café e mais nada. Se forma chamado de café expresso,
+                          a grafia é com x. Entretanto, sozinho, por se tratar de um nome próprio, o espresso é escrito com s."</h2>
+            </h:outputLabel>
         </h:form>
     </ui:define>
 </ui:composition>
