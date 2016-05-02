@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modelo_template.xhtml">
+    
+    <ui:define name="menu">
+        <ui:include src="/includes/menu_principal.xhtml"/>
+    </ui:define>
+    <ui:define name="conteudo">
+        <h:form>
+            <h:outputLabel>
+                <h2>Conta com uma calda de chocolate, leite vaporizado, espuma de leite e uma dose de expresso. A mistura pode ser tri-fásica ou uma mistura de café com a calda de chocolate
+                          e o creme do leite por cima e espuma. Pode também ser conhecido pelo nome de Mocaccino.</h2>
+                <p:graphicImage url="/imagem/mocha.jpg" width="500px" height="350px"/>
+            </h:outputLabel>
+        </h:form>
+    </ui:define>
+</ui:composition>

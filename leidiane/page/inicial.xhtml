@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modelo_template.xhtml">
+    
+    <ui:define name="menu">
+        <ui:include src="/includes/menu_principal.xhtml"/>
+    </ui:define>
+    <ui:define name="conteudo">
+        <h:form>
+            <h:outputLabel id='inicial'>
+                <h2>O casamento entre o café e o leite vem de longa data e é conhecido em todo o mundo. Suas variações podem mudar muito de uma cultura para a outra,
+                mas não há dúvidas de que é bastante apreciada em todas. A lista de bebidas resultantes desta união pode ser longa e bastante familiar: cappuccino,
+                média, duplo, mas qual a diferença entre eles
+
+                O especialista em café, Luis Fernando Leme, da Indústria de Comércio Santa Fé, defende as tradições para começar entender um pouco mais sobre a bebida:
+                “Um bom espresso deve chegar à xícara com 35 ml da bebida. Mas não vale ser aquele café expresso pesado. A bebida deve ser leve e cair bem”, ensina.
+
+                Outra dica de Luis é sobre o cappuccino, que no Brasil é servido com chocolate ou noz moscada. “A receita original leva apenas café e leite”.
+                Outros conselhos de que quem sabe destacam a importância de se usar água filtrada e acondicionar o pó da maneira correta. “O cloro da água interfere no aroma e sabor e a exposição do café a ambientes úmidos como a geladeira também podem alterar a qualidade da bebida”, orienta.
+
+                Agora que você já sabe um pouco mais sobre o café, confira quais são os tipos mais famosos da bebida."</h2>
+            </h:outputLabel>
+            <p:graphicImage url="/imagem/inicial.jpg" style="height: 600px; width: 1000px;" />
+        </h:form>
+    </ui:define>
+</ui:composition>

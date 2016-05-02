@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modelo_template.xhtml">
+    <ui:define name="menu">
+        <ui:include src="/includes/menu_principal.xhtml"/>
+    </ui:define>
+    <ui:define name="conteudo">
+        <h:form>
+            <h:outputLabel>
+                <h2>Trata-se do café filtrado com leite aquecido ou fervido. Também pode apresentar-se como café expresso
+                com leite vaporizado e uma fina camada de espuma de leite."</h2>
+                <p:graphicImage url="/imagem/com leite.jpg" style="height: 700px; width: 1000px;" />
+            </h:outputLabel>
+        </h:form>
+    </ui:define>
+</ui:composition>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modelo_template.xhtml">
+    <ui:define name="menu">
+        <ui:include src="/includes/menu_principal.xhtml"/>
+    </ui:define>
+    <ui:define name="conteudo">
+        <h:form>
+            <h:outputLabel>
+                <h2>O verdadeiro, italiano, não leva nada além de leite e café. Porém, algumas versões pelo mundo apresentam 1/3 de expresso, 1/3 de leite vaporizado,
+                          1/3 de espuma de leite na xícara de 150 a 180 ml."</h2>
+                <p:graphicImage url="/imagem/cappuccino.jpg" style="height: 700px; width: 1000px;" />
+            </h:outputLabel>
+        </h:form>
+    </ui:define>
+</ui:composition>
